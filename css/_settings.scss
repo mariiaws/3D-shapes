@@ -1,0 +1,16 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  font-family: $font-ABeeZee;
+  color: $first-color;
+}
+
+.container {
+  background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%);
+  height: 2000px;
+}
+
+a {
+  text-decoration: none;
+}
