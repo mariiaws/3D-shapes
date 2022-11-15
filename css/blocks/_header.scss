@@ -2,10 +2,15 @@
 @import "../variables";
 
 .header {
+  padding-top: 40px;
+}
+
+.header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 130px 220px 90px;
+  width: 100%;
+
 }
 
 .logo-img {
@@ -13,6 +18,9 @@
   height: 130px;
 }
 
+.logo-img:hover{
+   opacity: 0.5;
+}
 
 .nav-wrapper {
   display: flex;
@@ -46,7 +54,6 @@
 .nav-item__link:hover:after {
   content: "";
   width: 100%;
-
 }
 
 .nav-item__link-sing-in {
@@ -56,6 +63,19 @@
   color: $white;
 }
 
-.nav-item__link-sing-in:hover{
-background: $violet-hover;
+.nav-item__link-sing-in:hover {
+  background: $violet-hover;
+}
+
+
+.hamburger {
+  display: none;
+  height: 50px;
+}
+
+.line-bottom, .line-middle, .line-top {
+  height: 5px;
+  width: 40px;
+  background: $white;
+
 }

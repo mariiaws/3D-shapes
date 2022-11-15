@@ -1,0 +1,36 @@
+@import "settings";
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    display: none;
+  }
+
+  .hamburger{
+    display: grid;
+    
+  }
+
+}
+
+@media (max-width: 576px) {
+  .form-main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-main__button{
+    top: 80px;
+    right: 100px;
+  }
+
+  .input-mail{
+    padding: 0 30px 0 30px;
+  }
+
+  .form-main__button{
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../settings";
+
+.footer {
+  display: flex;
+  justify-content: start;
+  margin-top: 170px;
+  padding-bottom: 60px;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+
+}
+
+.social-network__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: $violet-gradient;
+}
+
+.social-network__icon:hover{
+  background: $violet-hover;
+}
+
+.icon-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-use {
+  fill: $white;
+}
+
