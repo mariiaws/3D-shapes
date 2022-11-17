@@ -11,7 +11,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 92%;
 }
 
 a {
@@ -41,7 +41,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 92%;
 }
 
 a {
@@ -71,7 +71,6 @@ a {
 
 .logo-img {
   width: 140px;
-  height: 130px;
 }
 
 .logo-img:hover {
@@ -81,7 +80,7 @@ a {
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 480px;
+  gap: 5vw;
   padding: 0;
   margin: 0;
 }
@@ -124,13 +123,27 @@ a {
 
 .hamburger {
   display: none;
-  height: 50px;
+  height: 30px;
 }
 
 .line-bottom, .line-middle, .line-top {
-  height: 5px;
-  width: 40px;
+  height: 3px;
+  width: 30px;
   background: #ffff;
+}
+
+.line-top {
+  display: flex;
+  transition: top 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.line-middle {
+  display: flex;
+}
+
+.line-bottom {
+  display: flex;
+  transition: bottom 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 * {
@@ -146,7 +159,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 92%;
 }
 
 a {
@@ -164,12 +177,14 @@ a {
 }
 
 .section-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 220px;
 }
 
 .title {
-  font-size: 57px;
-  line-height: 67px;
+  font-size: calc(24px + 36 * (100vw / 1500));
+  line-height: calc(24px + 36 * (100vw / 1500));
 }
 .title .title-violet {
   color: #8468f5;
@@ -177,8 +192,8 @@ a {
 
 .subtitle {
   margin-top: 50px;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: calc(10px + 10 * (100vw / 1500));
+  line-height: calc(10px + 10 * (100vw / 1500));
   color: grey;
 }
 
@@ -233,7 +248,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 92%;
 }
 
 a {
@@ -259,9 +274,8 @@ a {
 
 .social-network {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  width: 200px;
+  gap: 1vw;
 }
 
 .social-network__icon {
@@ -279,7 +293,7 @@ a {
 }
 
 .icon-svg {
-  width: 20px;
+  width: 17px;
   height: 20px;
 }
 
@@ -300,7 +314,7 @@ body {
 
 .container {
   margin: auto;
-  width: 90%;
+  width: 92%;
 }
 
 a {
@@ -318,20 +332,67 @@ a {
 }
 
 @media (max-width: 768px) {
+  .nav {
+    display: flex;
+  }
+
   .nav-wrapper {
+    position: absolute;
+    top: 60px;
+    right: 2vw;
     display: none;
+    flex-direction: column;
+    gap: 6vh;
+    background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%), no-repeat, center;
+    padding: 22px;
+    z-index: 8;
+    filter: drop-shadow(7px 11px 15px rgba(0, 0, 0, 0.15));
   }
 
   .hamburger {
     display: grid;
+    z-index: 10;
+  }
+
+  .line-top__animate {
+    position: absolute;
+    right: 5vw;
+    top: 42vh;
+    transform: rotate(49deg);
+    transition: top 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .line-middle__animate {
+    display: none;
+  }
+
+  .line-bottom__animate {
+    position: absolute;
+    right: 5vw;
+    top: 42vh;
+    transform: rotate(310deg);
+    transition: bottom 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .logo-img {
+    width: 100px;
+  }
+
+  .title {
+    font-size: calc(24px + (36 + 36 * 0.7) * ((100vw - 320px) / 1500));
   }
 }
 @media (max-width: 576px) {
   .form-main {
+    margin-top: 30px;
     width: 100%;
   }
 }
 @media (max-width: 480px) {
+  .subtitle {
+    margin-top: 30px;
+  }
+
   .form-main__button {
     top: 80px;
     right: 100px;

@@ -10,10 +10,8 @@
 
 .social-network {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  width: 200px;
-
+  gap: 1vw;
 }
 
 .social-network__icon {
@@ -26,12 +24,12 @@
   background: $violet-gradient;
 }
 
-.social-network__icon:hover{
+.social-network__icon:hover {
   background: $violet-hover;
 }
 
 .icon-svg {
-  width: 20px;
+  width: 17px;
   height: 20px;
 }
 

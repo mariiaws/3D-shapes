@@ -15,17 +15,16 @@
 
 .logo-img {
   width: 140px;
-  height: 130px;
 }
 
-.logo-img:hover{
-   opacity: 0.5;
+.logo-img:hover {
+  opacity: 0.5;
 }
 
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 480px;
+  gap: 5vw;
   padding: 0;
   margin: 0;
 }
@@ -70,12 +69,29 @@
 
 .hamburger {
   display: none;
-  height: 50px;
+  height: 30px;
 }
 
 .line-bottom, .line-middle, .line-top {
-  height: 5px;
-  width: 40px;
+  height: 3px;
+  width: 30px;
   background: $white;
+
+}
+
+.line-top {
+  display: flex;
+  transition: top 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
+
+}
+
+.line-middle {
+  display: flex;
+
+}
+
+.line-bottom {
+  display: flex;
+  transition: bottom 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.9s cubic-bezier(0.23, 1, 0.32, 1);
 
 }
