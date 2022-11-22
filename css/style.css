@@ -10,6 +10,11 @@ body {
 }
 
 .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
   margin: auto;
   width: 92%;
 }
@@ -40,6 +45,11 @@ body {
 }
 
 .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
   margin: auto;
   width: 92%;
 }
@@ -158,6 +168,11 @@ body {
 }
 
 .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
   margin: auto;
   width: 92%;
 }
@@ -247,6 +262,11 @@ body {
 }
 
 .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
   margin: auto;
   width: 92%;
 }
@@ -313,6 +333,187 @@ body {
 }
 
 .container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
+  margin: auto;
+  width: 92%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(87.86deg, #EC74E7 -45.12%, #8468F5 74.37%);
+}
+
+.button:hover {
+  background: linear-gradient(118deg, #9982f3de 72.09%, #e58ee1de 352.57%);
+}
+
+.long-stick {
+  position: absolute;
+  z-index: -1;
+}
+
+.stick-one {
+  top: 540px;
+  left: 25vw;
+  background-image: url("../img/bg-long-stick/long-stick-1.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+}
+
+.stick-two {
+  top: 590px;
+  left: 38vw;
+  background-image: url("../img/bg-long-stick/long-stick-2.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+}
+
+.stick-three {
+  top: 270px;
+  left: -22px;
+  background-image: url("../img/bg-long-stick/long-stick-3.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+}
+
+.stick-four {
+  top: 300px;
+  left: 0;
+  background-image: url("../img/bg-long-stick/long-stick-4.png");
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 200px;
+}
+
+.stick-five {
+  top: 0;
+  left: 15vw;
+  background-image: url("../img/bg-long-stick/long-stick-5.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 290px;
+}
+
+.stick-six {
+  top: 510px;
+  left: 23vw;
+  background-image: url("../img/bg-long-stick/long-stick-6.png");
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 85px;
+}
+
+.stick-seven {
+  top: 0;
+  right: 0;
+  background-image: url("../img/bg-long-stick/long-stick-7.png");
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 200px;
+}
+
+.stick-eight {
+  top: 0;
+  right: 55vw;
+  background-image: url("../img/bg-long-stick/long-stick-8.png");
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 100px;
+}
+
+.stick-nine {
+  top: 0;
+  left: 20vw;
+  background-image: url("../img/bg-long-stick/long-stick-9.png");
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 100px;
+}
+
+.stick-ten {
+  top: 10rem;
+  right: 35vw;
+  background-image: url("../img/bg-long-stick/long-stick-10.png");
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+}
+
+.stick-eleven {
+  top: 160px;
+  left: 30px;
+  background-image: url("../img/bg-long-stick/long-stick-11.png");
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 70px;
+}
+
+.stick-twelve {
+  top: 45rem;
+  left: 75vw;
+  background-image: url("../img/bg-long-stick/long-stick-12.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+.stick-thirteen {
+  left: 32vw;
+  bottom: 0;
+  background-image: url("../img/bg-long-stick/long-stick-13.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+}
+
+.stick-fourteen {
+  top: 670px;
+  left: 36vw;
+  background-image: url("../img/bg-long-stick/long-stick-14.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 205px;
+}
+
+.stick-fifteen {
+  top: 0;
+  left: 14vw;
+  background-image: url("../img/bg-long-stick/long-stick-15.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 170px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "ABeeZee", sans-serif;
+  color: #1d1c24;
+}
+
+body {
+  background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%), no-repeat, center;
+  background-size: cover, 100%;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-main {
   margin: auto;
   width: 92%;
 }
@@ -357,7 +558,7 @@ a {
   .line-top__animate {
     position: absolute;
     right: 5vw;
-    top: 42vh;
+    top: 80px;
     transform: rotate(49deg);
     transition: top 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   }
@@ -369,7 +570,7 @@ a {
   .line-bottom__animate {
     position: absolute;
     right: 5vw;
-    top: 42vh;
+    top: 80px;
     transform: rotate(310deg);
     transition: bottom 0.8s cubic-bezier(0.23, 1, 0.32, 1), transform 0.8s 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   }
