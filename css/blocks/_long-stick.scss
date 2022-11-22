@@ -14,27 +14,30 @@
   background-repeat: no-repeat;
   width: 150px;
   height: 200px;
-/*  animation-name: stick-one;
-  animation-duration: 30s;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-direction: alternate;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-in;*/
+  animation-timing-function: ease-in;
+
 }
 
-/*@keyframes stick-one {
+@keyframes example {
   0% {
-    top: 30px;
-    left: 435px;
+    //margin: 0;
+    top: 540px;
+    left: 25vw;
   }
 
+  40%{
+    transform: translate3d(-425px, -25vw, 0);
+
+  }
   100% {
-
-    top: 1190px;
-    left: 970px;
+    //margin: 100vh;
+    transform: translate3d(440px, 25vw, 0);
   }
-
-}*/
-
+}
 
 .stick-two {
   top: 590px;

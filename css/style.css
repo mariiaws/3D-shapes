@@ -368,8 +368,25 @@ a {
   background-repeat: no-repeat;
   width: 150px;
   height: 200px;
+  animation-name: example;
+  animation-duration: 20s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
+@keyframes example {
+  0% {
+    top: 540px;
+    left: 25vw;
+  }
+  40% {
+    transform: translate3d(-425px, -25vw, 0);
+  }
+  100% {
+    transform: translate3d(440px, 25vw, 0);
+  }
+}
 .stick-two {
   top: 590px;
   left: 38vw;
