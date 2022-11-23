@@ -9,33 +9,30 @@
 
 .stick-one {
   top: 540px;
-  left: 25vw;
+  left: 28vw;
   background-image: url("../img/bg-long-stick/long-stick-1.png");
   background-repeat: no-repeat;
   width: 150px;
   height: 200px;
-  animation-name: example;
-  animation-duration: 20s;
+  animation-name: stick-one;
+  animation-duration: 35s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
 
 }
 
-@keyframes example {
+@keyframes stick-one {
   0% {
-    //margin: 0;
-    top: 540px;
-    left: 25vw;
+    margin: 0;
   }
 
   40%{
-    transform: translate3d(-425px, -25vw, 0);
-
+    margin: -20vh;
   }
+
   100% {
-    //margin: 100vh;
-    transform: translate3d(440px, 25vw, 0);
+    margin: 100vh;
   }
 }
 
@@ -46,35 +43,103 @@
   background-repeat: no-repeat;
   width: 150px;
   height: 200px;
+  animation-name: stick-two;
+  animation-duration: 80s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+
 }
 
+@keyframes stick-two {
+  0% {
+    top: 590px;
+    left: 38vw;
+  }
+
+  40%{
+    transform: translate3d(-25vw, -29vw, 0);
+  }
+  100% {
+    transform: translate3d(25vw, 25vw, 0);
+  }
+}
+
+
 .stick-three {
-  top: 270px;
-  left: -22px;
+  top: 315px;
+  left: -5vw;
   background-image: url("../img/bg-long-stick/long-stick-3.png");
   background-repeat: no-repeat;
   width: 150px;
   height: 200px;
+  animation-name: stick-three;
+  animation-duration: 35s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-three {
+  0% {
+    top: 315px;
+    left: -5vw;
+  }
+
+  100% {
+    transform: translate3d(20vw, 25vw, 0);
+  }
 }
 
 
 .stick-four {
-  top: 300px;
-  left: 0;
+  top: 335px;
+  left: -5vw;
   background-image: url("../img/bg-long-stick/long-stick-4.png");
   background-repeat: no-repeat;
-  width: 45px;
+  width: 220px;
   height: 200px;
+  animation-name: stick-four;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-four {
+  0% {
+    top: 355px;
+    left: -5vw;
+  }
+
+  100% {
+    transform: translate3d(15vw, 25vw, 0);
+  }
 }
 
 .stick-five {
-  top: 0;
+  top: -2rem;
   left: 15vw;
   background-image: url("../img/bg-long-stick/long-stick-5.png");
   background-repeat: no-repeat;
   width: 250px;
-  height: 290px;
+  height: 355px;
+  animation-name: stick-five;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
 
+@keyframes stick-five{
+  0% {
+    top: -2rem;
+    left: 15vw;
+  }
+
+  100% {
+    transform: translate3d(-8vw, -11vw, 0);
+  }
 }
 
 .stick-six {
@@ -84,34 +149,99 @@
   background-repeat: no-repeat;
   width: 65px;
   height: 85px;
+  animation-name: stick-six;
+  animation-duration: 130s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-six {
+  0% {
+    margin: 0;
+  }
+
+  40% {
+    margin: -35vh;
+  }
+  100% {
+    margin: 100vh;
+  }
 }
 
 .stick-seven {
-  top: 0;
+  top: -5rem;
   right: 0;
   background-image: url("../img/bg-long-stick/long-stick-7.png");
   background-repeat: no-repeat;
   width: 250px;
-  height: 200px;
+  height: 335px;
+  animation-name: stick-seven;
+  animation-duration: 12s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-seven{
+  0% {
+    top: -5rem;
+    right: 0;
+  }
+
+  100% {
+    transform: translate3d(-4vw, -6vw, 0);
+  }
 }
 
 .stick-eight {
-  top: 0;
+  top: -2rem;
   right: 55vw;
   background-image: url("../img/bg-long-stick/long-stick-8.png");
   background-repeat: no-repeat;
   width: 130px;
-  height: 100px;
+  height: 160px;
+  animation-name: stick-eight;
+  animation-duration: 12s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
+@keyframes stick-eight{
+  0% {
+    top: -2rem;
+    right: 55vw;
+  }
+
+  100% {
+    transform: translate3d(-1vw, -3vw, 0);
+  }
+}
 
 .stick-nine {
-  top: 0;
+  top: -9rem;
   left: 20vw;
   background-image: url("../img/bg-long-stick/long-stick-9.png");
   background-repeat: no-repeat;
   width: 190px;
-  height: 100px;
+  height: 260px;
+  animation-name: stick-nine;
+  animation-duration: 17s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-nine{
+  0% {
+    top: -9rem;
+    left: 20vw;
+  }
+
+  100% {
+    transform: translate3d(-3vw, -3vw, 0);
+  }
 }
 
 .stick-ten {
@@ -121,6 +251,23 @@
   background-repeat: no-repeat;
   width: 80px;
   height: 60px;
+  animation-name: stick-ten;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+
+}
+
+@keyframes stick-ten {
+  0% {
+    top: 10rem;
+    right: 35vw;
+  }
+
+  100% {
+    transform: translate3d(-6vw, -11vw, 0);
+  }
 }
 
 .stick-eleven {
@@ -130,16 +277,47 @@
   background-repeat: no-repeat;
   width: 55px;
   height: 70px;
+  animation-name: stick-eleven;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-eleven {
+  0% {
+    top: 10rem;
+    right: 35vw;
+  }
+
+  100% {
+    transform: translate3d(11vw, 15vw, 0);
+  }
 }
 
 .stick-twelve {
-  top: 45rem;
-  left: 75vw;
+  top: 35rem;
+  left: 70vw;
   background-image: url("../img/bg-long-stick/long-stick-12.png");
   background-repeat: no-repeat;
-  width: 150px;
-  height: 200px;
-  transform: rotate(180deg);
+  width: 250px;
+  height: 340px;
+  animation-name: stick-twelve;
+  animation-duration: 22s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-twelve{
+  0% {
+    top: 35rem;
+    right: 70vw;
+  }
+
+  100% {
+    transform: translate3d(-6vw, -11vw, 0);
+  }
 }
 
 .stick-thirteen {
@@ -149,6 +327,22 @@
   background-repeat: no-repeat;
   width: 150px;
   height: 130px;
+  animation-name: stick-thirteen;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+@keyframes stick-thirteen {
+  0% {
+    left: 32vw;
+    bottom: 0;
+  }
+
+  100% {
+    transform: translate3d(-13vw, -18vw, 0);
+  }
 }
 
 .stick-fourteen {
@@ -158,14 +352,30 @@
   background-repeat: no-repeat;
   width: 150px;
   height: 205px;
+  animation-name: stick-fourteen;
+  animation-duration: 30s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+
+}
+
+@keyframes stick-fourteen {
+  0% {
+    top: 670px;
+    left: 36vw;
+  }
+
+  100% {
+    transform: translate3d(-13vw, -18vw, 0);
+  }
 }
 
 .stick-fifteen {
-  top: 0;
+  top: -1rem;
   left: 14vw;
   background-image: url("../img/bg-long-stick/long-stick-15.png");
   background-repeat: no-repeat;
   width: 150px;
-  height: 170px;
+  height: 205px;
 }
-
