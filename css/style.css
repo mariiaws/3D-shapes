@@ -197,6 +197,10 @@ a {
   margin-top: 220px;
 }
 
+.section-text {
+  z-index: 100;
+}
+
 .title {
   font-size: calc(24px + 36 * (100vw / 1500));
   line-height: calc(24px + 36 * (100vw / 1500));
@@ -248,6 +252,156 @@ input:-webkit-autofill:hover {
   margin-left: 15px;
   width: 15px;
   height: 15px;
+}
+
+.parallax {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/bg-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.bg-cone {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/bg-cone.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.bg-big-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/big-big-bg-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.coffee-stand {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/coffee-stand.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.coffee-stand-stripes {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/coffee-stand-stripes.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.cone {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/cone.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.glass {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/glass.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.little-cone {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/little-cone.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.long-stick-light-pink {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/long-stick-light-pink.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.long-stick-dark {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/long-stick-dark.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.middle-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/middle-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.semicircle {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/semicircle.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.small-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/small-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.the-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/the-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.the-big-ball {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/the-big-ball.png");
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+}
+
+.violet-cone {
+  top: 500px;
+  right: 200px;
+  background-image: url("../img/parallax-img/violet-cone.png");
+  width: 300px;
+  height: 370px;
+  z-index: 10;
 }
 
 * {
