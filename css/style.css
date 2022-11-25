@@ -12,10 +12,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -47,10 +48,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -96,6 +98,7 @@ a {
 }
 
 .nav-item {
+  width: fit-content;
   list-style: none;
   font-style: normal;
   font-size: 16px;
@@ -170,10 +173,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -193,7 +197,7 @@ a {
 
 .section-main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   margin-top: 220px;
 }
 
@@ -254,24 +258,39 @@ input:-webkit-autofill:hover {
   height: 15px;
 }
 
+.section-parallax__wrapper {
+  position: relative;
+  height: 100%;
+}
+
 .parallax {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .bg-ball {
-  top: 500px;
-  right: 200px;
+  top: -225px;
+  left: 20px;
   background-image: url("../img/parallax-img/bg-ball.png");
   width: 300px;
   height: 300px;
-  z-index: 10;
+  z-index: 9;
+}
+
+.bg-ball-one {
+  top: -80px;
+  left: 850px;
+  background-image: url("../img/parallax-img/bg-ball.png");
+  width: 115px;
+  height: 115px;
+  z-index: 9;
 }
 
 .bg-cone {
-  top: 500px;
-  right: 200px;
+  top: 235px;
+  left: 630px;
   background-image: url("../img/parallax-img/bg-cone.png");
   width: 300px;
   height: 300px;
@@ -279,107 +298,115 @@ input:-webkit-autofill:hover {
 }
 
 .bg-big-ball {
-  top: 500px;
-  right: 200px;
+  top: -240px;
+  left: 430px;
   background-image: url("../img/parallax-img/big-big-bg-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 455px;
+  height: 370px;
+  z-index: 9;
 }
 
 .coffee-stand {
-  top: 500px;
-  right: 200px;
+  top: 70px;
+  left: 0;
   background-image: url("../img/parallax-img/coffee-stand.png");
-  width: 300px;
-  height: 300px;
+  width: 590px;
+  height: 470px;
   z-index: 10;
 }
 
 .coffee-stand-stripes {
-  top: 500px;
-  right: 200px;
+  top: 34px;
+  left: 710px;
   background-image: url("../img/parallax-img/coffee-stand-stripes.png");
   width: 300px;
-  height: 300px;
+  height: 320px;
   z-index: 10;
 }
 
 .cone {
-  top: 500px;
-  right: 200px;
+  top: -75px;
+  left: 675px;
   background-image: url("../img/parallax-img/cone.png");
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 400px;
   z-index: 10;
 }
 
 .glass {
-  top: 500px;
-  right: 200px;
+  top: -80px;
+  left: 280px;
   background-image: url("../img/parallax-img/glass.png");
-  width: 300px;
-  height: 300px;
+  width: 410px;
+  height: 540px;
   z-index: 10;
 }
 
 .little-cone {
-  top: 500px;
-  right: 200px;
+  top: -235px;
+  left: 470px;
   background-image: url("../img/parallax-img/little-cone.png");
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 125px;
   z-index: 10;
 }
 
 .long-stick-light-pink {
-  top: 500px;
-  right: 200px;
   background-image: url("../img/parallax-img/long-stick-light-pink.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 520px;
+  height: 540px;
+  z-index: 9;
+}
+
+.long-stick-light-pink-zero {
+  top: -160px;
+  left: 175px;
+}
+
+.long-stick-light-pink-one {
+  top: -270px;
+  left: 190px;
 }
 
 .long-stick-dark {
-  top: 500px;
-  right: 200px;
+  top: -220px;
+  left: 180px;
   background-image: url("../img/parallax-img/long-stick-dark.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 520px;
+  height: 540px;
+  z-index: 9;
 }
 
 .middle-ball {
-  top: 500px;
-  right: 200px;
+  top: -100px;
+  left: 0;
   background-image: url("../img/parallax-img/middle-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 250px;
+  height: 210px;
+  z-index: 11;
 }
 
 .semicircle {
-  top: 500px;
-  right: 200px;
+  top: 145px;
+  left: 525px;
   background-image: url("../img/parallax-img/semicircle.png");
-  width: 300px;
-  height: 300px;
+  width: 415px;
+  height: 260px;
   z-index: 10;
 }
 
 .small-ball {
-  top: 500px;
-  right: 200px;
+  top: -235px;
+  left: 345px;
   background-image: url("../img/parallax-img/small-ball.png");
-  width: 300px;
-  height: 300px;
+  width: 90px;
+  height: 140px;
   z-index: 10;
 }
 
 .the-ball {
-  top: 500px;
-  right: 200px;
+  top: -180px;
+  left: 640px;
   background-image: url("../img/parallax-img/the-ball.png");
   width: 300px;
   height: 300px;
@@ -387,20 +414,20 @@ input:-webkit-autofill:hover {
 }
 
 .the-big-ball {
-  top: 500px;
-  right: 200px;
+  top: 95px;
+  left: 0;
   background-image: url("../img/parallax-img/the-big-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 310px;
+  height: 325px;
+  z-index: 9;
 }
 
 .violet-cone {
-  top: 500px;
-  right: 200px;
+  top: -68px;
+  left: 0;
   background-image: url("../img/parallax-img/violet-cone.png");
-  width: 300px;
-  height: 370px;
+  width: 260px;
+  height: 350px;
   z-index: 10;
 }
 
@@ -418,10 +445,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -489,10 +517,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -542,7 +571,7 @@ a {
 }
 .stick-two {
   top: 590px;
-  left: 38vw;
+  left: 67vw;
   background-image: url("../img/bg-long-stick/long-stick-2.png");
   background-repeat: no-repeat;
   width: 150px;
@@ -557,13 +586,13 @@ a {
 @keyframes stick-two {
   0% {
     top: 590px;
-    left: 38vw;
+    left: 45vw;
   }
   40% {
-    transform: translate3d(-25vw, -29vw, 0);
+    transform: translate3d(3vw, 20vw, 0);
   }
   100% {
-    transform: translate3d(25vw, 25vw, 0);
+    transform: translate3d(-37vw, -15vw, 0);
   }
 }
 .stick-three {
@@ -777,7 +806,7 @@ a {
 }
 .stick-twelve {
   top: 35rem;
-  left: 70vw;
+  left: 57vw;
   background-image: url("../img/bg-long-stick/long-stick-12.png");
   background-repeat: no-repeat;
   width: 250px;
@@ -792,10 +821,10 @@ a {
 @keyframes stick-twelve {
   0% {
     top: 35rem;
-    right: 70vw;
+    right: 137vw;
   }
   100% {
-    transform: translate3d(-6vw, -11vw, 0);
+    transform: translate3d(-8vw, -11vw, 0);
   }
 }
 .stick-thirteen {
@@ -867,10 +896,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 
@@ -902,13 +932,13 @@ a {
     gap: 6vh;
     background: linear-gradient(155.52deg, #F8C7C8 18.54%, #FAC1C2 24.61%, #FEB6B8 42.81%, #FFB2B4 61.01%, #DC939C 105.21%), no-repeat, center;
     padding: 22px;
-    z-index: 8;
     filter: drop-shadow(7px 11px 15px rgba(0, 0, 0, 0.15));
+    z-index: 20;
   }
 
   .hamburger {
     display: grid;
-    z-index: 10;
+    z-index: 25;
   }
 
   .line-top__animate {

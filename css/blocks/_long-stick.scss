@@ -27,7 +27,7 @@
     margin: 0;
   }
 
-  40%{
+  40% {
     margin: -20vh;
   }
 
@@ -38,7 +38,7 @@
 
 .stick-two {
   top: 590px;
-  left: 38vw;
+  left: 67vw;
   background-image: url("../img/bg-long-stick/long-stick-2.png");
   background-repeat: no-repeat;
   width: 150px;
@@ -54,15 +54,21 @@
 @keyframes stick-two {
   0% {
     top: 590px;
-    left: 38vw;
+    left: 45vw;
   }
 
-  40%{
-    transform: translate3d(-25vw, -29vw, 0);
+  40% {
+    transform: translate3d(3vw, 20vw, 0);
+
   }
+
   100% {
-    transform: translate3d(25vw, 25vw, 0);
+
+    transform: translate3d(-37vw, -15vw, 0);
+
   }
+
+
 }
 
 
@@ -131,7 +137,7 @@
   animation-timing-function: ease-in;
 }
 
-@keyframes stick-five{
+@keyframes stick-five {
   0% {
     top: -2rem;
     left: 15vw;
@@ -183,7 +189,7 @@
   animation-timing-function: ease-in;
 }
 
-@keyframes stick-seven{
+@keyframes stick-seven {
   0% {
     top: -5rem;
     right: 0;
@@ -208,7 +214,7 @@
   animation-timing-function: ease-in;
 }
 
-@keyframes stick-eight{
+@keyframes stick-eight {
   0% {
     top: -2rem;
     right: 55vw;
@@ -233,7 +239,7 @@
   animation-timing-function: ease-in;
 }
 
-@keyframes stick-nine{
+@keyframes stick-nine {
   0% {
     top: -9rem;
     left: 20vw;
@@ -297,7 +303,7 @@
 
 .stick-twelve {
   top: 35rem;
-  left: 70vw;
+  left: 57vw;
   background-image: url("../img/bg-long-stick/long-stick-12.png");
   background-repeat: no-repeat;
   width: 250px;
@@ -309,14 +315,14 @@
   animation-timing-function: ease-in;
 }
 
-@keyframes stick-twelve{
+@keyframes stick-twelve {
   0% {
     top: 35rem;
-    right: 70vw;
+    right: 137vw;
   }
 
   100% {
-    transform: translate3d(-6vw, -11vw, 0);
+    transform: translate3d(-8vw, -11vw, 0);
   }
 }
 

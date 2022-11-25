@@ -15,10 +15,11 @@ body {
 .container {
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .container-main {
-  margin: auto;
   width: 92%;
 }
 

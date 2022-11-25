@@ -3,7 +3,7 @@
 
 .section-main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.5fr;
   margin-top: 220px;
 }
 
@@ -69,28 +69,40 @@ input:-webkit-autofill:hover {
   height: 15px;
 }
 
+.section-parallax__wrapper {
+  position: relative;
+  height: 100%;
+}
 
 .parallax {
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-
-
+  background-position: center;
 }
 
 
 .bg-ball {
-  top: 500px;
-  right: 200px;
+  top: -225px;
+  left: 20px;
   background-image: url("../img/parallax-img/bg-ball.png");
   width: 300px;
   height: 300px;
-  z-index: 10;
+  z-index: 9;
+}
+
+.bg-ball-one {
+  top: -80px;
+  left: 850px;
+  background-image: url("../img/parallax-img/bg-ball.png");
+  width: 115px;
+  height: 115px;
+  z-index: 9;
 }
 
 .bg-cone {
-  top: 500px;
-  right: 200px;
+  top: 235px;
+  left: 630px;
   background-image: url("../img/parallax-img/bg-cone.png");
   width: 300px;
   height: 300px;
@@ -98,107 +110,116 @@ input:-webkit-autofill:hover {
 }
 
 .bg-big-ball {
-  top: 500px;
-  right: 200px;
+  top: -240px;
+  left: 430px;
   background-image: url("../img/parallax-img/big-big-bg-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 455px;
+  height: 370px;
+  z-index: 9;
 }
 
 .coffee-stand {
-  top: 500px;
-  right: 200px;
+  top: 70px;
+  left: 0;
   background-image: url("../img/parallax-img/coffee-stand.png");
-  width: 300px;
-  height: 300px;
+  width: 590px;
+  height: 470px;
   z-index: 10;
 }
 
 .coffee-stand-stripes {
-  top: 500px;
-  right: 200px;
+  top: 34px;
+  left: 710px;
   background-image: url("../img/parallax-img/coffee-stand-stripes.png");
   width: 300px;
-  height: 300px;
+  height: 320px;
   z-index: 10;
 }
 
 .cone {
-  top: 500px;
-  right: 200px;
+  top: -75px;
+  left: 675px;
   background-image: url("../img/parallax-img/cone.png");
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 400px;
   z-index: 10;
 }
 
 .glass {
-  top: 500px;
-  right: 200px;
+  top: -80px;
+  left: 280px;
   background-image: url("../img/parallax-img/glass.png");
-  width: 300px;
-  height: 300px;
+  width: 410px;
+  height: 540px;
   z-index: 10;
 }
 
 .little-cone {
-  top: 500px;
-  right: 200px;
+  top: -235px;
+  left: 470px;
   background-image: url("../img/parallax-img/little-cone.png");
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 125px;
   z-index: 10;
 }
 
 .long-stick-light-pink {
-  top: 500px;
-  right: 200px;
   background-image: url("../img/parallax-img/long-stick-light-pink.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 520px;
+  height: 540px;
+  z-index: 9;
+}
+
+.long-stick-light-pink-zero {
+  top: -160px;
+  left: 175px;
+}
+
+
+.long-stick-light-pink-one {
+  top: -270px;
+  left: 190px;
 }
 
 .long-stick-dark {
-  top: 500px;
-  right: 200px;
+  top: -220px;
+  left: 180px;
   background-image: url("../img/parallax-img/long-stick-dark.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 520px;
+  height: 540px;
+  z-index: 9;
 }
 
 .middle-ball {
-  top: 500px;
-  right: 200px;
+  top: -100px;
+  left: 0;
   background-image: url("../img/parallax-img/middle-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 250px;
+  height: 210px;
+  z-index: 11;
 }
 
 .semicircle {
-  top: 500px;
-  right: 200px;
+  top: 145px;
+  left: 525px;
   background-image: url("../img/parallax-img/semicircle.png");
-  width: 300px;
-  height: 300px;
+  width: 415px;
+  height: 260px;
   z-index: 10;
 }
 
 .small-ball {
-  top: 500px;
-  right: 200px;
+  top: -235px;
+  left: 345px;
   background-image: url("../img/parallax-img/small-ball.png");
-  width: 300px;
-  height: 300px;
+  width: 90px;
+  height: 140px;
   z-index: 10;
 }
 
 .the-ball {
-  top: 500px;
-  right: 200px;
+  top: -180px;
+  left: 640px;
   background-image: url("../img/parallax-img/the-ball.png");
   width: 300px;
   height: 300px;
@@ -206,19 +227,19 @@ input:-webkit-autofill:hover {
 }
 
 .the-big-ball {
-  top: 500px;
-  right: 200px;
+  top: 95px;
+  left: 0;
   background-image: url("../img/parallax-img/the-big-ball.png");
-  width: 300px;
-  height: 300px;
-  z-index: 10;
+  width: 310px;
+  height: 325px;
+  z-index: 9;
 }
 
 .violet-cone {
-  top: 500px;
-  right: 200px;
+  top: -68px;
+  left: 0;
   background-image: url("../img/parallax-img/violet-cone.png");
-  width: 300px;
-  height: 370px;
+  width: 260px;
+  height: 350px;
   z-index: 10;
 }
