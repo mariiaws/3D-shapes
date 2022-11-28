@@ -47,17 +47,17 @@ window.onload = () => {
 
     const forCoffeeStand = 100;
     const forCoffeeStandStripes = 40;
-    const forCone = 60;
-    const forGlass = 20;
-    const forLittleCone = 66;
+    const forCone = 20;
+    const forGlass = 25;
+    const forLittleCone = 23;
     const forLongStickLightPink = 99;
     const forLongStickLightPinkOne = 80;
     const forLongStickDark = 90;
-    const forMiddleBall = 95;
-    const forSemicircle = 80;
-    const forTheBall = 70;
-    const forTheBigBall = 73;
-    const forVioletCone = 55;
+    const forMiddleBall = 85;
+    const forSemicircle = 20;
+    const forTheBall = 90;
+    const forTheBigBall = 30;
+    const forVioletCone = 35;
 
 //Скорость анимации, плавность при сдвиге
 
