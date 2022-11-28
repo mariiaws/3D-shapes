@@ -31,9 +31,12 @@ a {
   border-radius: 30px;
   border: none;
   background: $violet-button;
+  transition: $transition2;
+  cursor: pointer;
+
 }
 
 .button:hover {
-  background: $violet-hover;
+  opacity: 0.5;
 }
 

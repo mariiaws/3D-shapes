@@ -21,11 +21,12 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  transition: 2s;
   background: $violet-gradient;
 }
 
 .social-network__icon:hover {
-  background: $violet-hover;
+  opacity: 0.6;
 }
 
 .icon-svg {

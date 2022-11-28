@@ -15,6 +15,7 @@
 
 .logo-img {
   width: 140px;
+  transition: $transition2;
 }
 
 .logo-img:hover {
@@ -60,17 +61,18 @@
   padding: 10px 30px;
   background: $violet-gradient;
   border-radius: 13px;
+  transition: $transition2;
   color: $white;
 }
 
 .nav-item__link-sing-in:hover {
-  background: $violet-hover;
+  opacity: 0.5;
 }
-
 
 .hamburger {
   display: none;
   height: 30px;
+  width: 30px;
 }
 
 .line-bottom, .line-middle, .line-top {
@@ -88,7 +90,6 @@
 
 .line-middle {
   display: flex;
-
 }
 
 .line-bottom {
