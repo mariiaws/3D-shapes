@@ -59,18 +59,12 @@
 
   40% {
     transform: translate3d(3vw, 20vw, 0);
-
   }
 
   100% {
-
     transform: translate3d(-37vw, -15vw, 0);
-
   }
-
-
 }
-
 
 .stick-three {
   top: 315px;
@@ -262,7 +256,6 @@
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-
 }
 
 @keyframes stick-ten {
@@ -363,7 +356,6 @@
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-
 }
 
 @keyframes stick-fourteen {
